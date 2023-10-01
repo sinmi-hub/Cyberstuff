@@ -1,0 +1,3 @@
+Finish implementing Vignre Cipher and inherent logic
+Implement Ploybius Cipher
+Create a scheme that layers both of the classical
