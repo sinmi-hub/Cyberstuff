@@ -1,3 +1,6 @@
 Finish implementing Vignre Cipher and inherent logic
 Implement Ploybius Cipher
 Create a scheme that layers both of the classical
+Result of Caesar's cipher still seems to be capitalized wrong - FIXED
+Frequency analysis was performed on filename, instead of content on file - FIXED
+Ensure Substitution s cipher is robust enough to encrypt numbers. Need to think of good logic
