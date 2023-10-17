@@ -7,16 +7,16 @@ The key is also contained in this file.
 We can simply encrypt/decrypt straight from the command line by running commands
 
 To use the Caesar cipher:
-Encryption: CLI command: python3 classical.py s_encrypt 'file - name' 'key'
-Decryption: CLI command: python3 classical.py s_decrypt 'file-name' 'key'
+``Encryption: CLI command: python3 class_scheme/classical.py s_encrypt 'file - name' 'key'``
+``Decryption: CLI command: python3 class_scheme/classical.py s_decrypt 'file-name' 'key'``
 
 To use the Vignere cipher:
-Encryption: CLI command: python3 classical.py v_encrypt 'file - name' 'key'
-Decryption: CLI command: python3 classical.py v_decrypt 'file-name' 'key'
+``Encryption: CLI command: python3 class_scheme/classical.py v_encrypt 'file - name' 'key'``
+``Decryption: CLI command: python3 class_scheme/classical.py v_decrypt 'file-name' 'key'``
 
 To use the Polybius cipher
-Encryption: CLI command: python3 classical.py v_encrypt 'file - name' 'key'
-Decryption: CLI command: python3 classical.py v_decrypt 'file-name' 'key'
+``Encryption: CLI command: python3 class_scheme/classical.py v_encrypt 'file - name' 'key'``
+``Decryption: CLI command: python3 class_scheme/classical.py v_decrypt 'file-name' 'key'``
 
  
 OTHER TOOLS
@@ -24,9 +24,10 @@ In 'encryption_tools.py', there are two functions. Each of this function can be 
 parameter. distance is of the following structure: 
 
 distance(ciphertext_char, plaintext_char)
-CLI command: python3 encryption_tools.py distance 'ciphertext_char' 'plaintext_char'
+``CLI command: python3 toolbox/encryption_tools.py distance 'ciphertext' 'plaintext``
+
 frequency_analysis(ciphertext)
-CLI command: python3 encryption_tools.py frequency_analysis 'ciphertext'
+``CLI command: python3 toolbox/encryption_tools.py frequency_analysis 'ciphertext'``
 
 Distance: This is used as a possible tool for shift ciphers. It takes two parameters: a plain text character and a ciphertext character and it finds the number of letters that the plaintext character has been shifted or rotated by. This is a useful tool when trying to determine the key for a shift-based cipher.
 
